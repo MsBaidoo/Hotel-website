@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+#header-bg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.212), rgba(0, 0, 0, 0.26)), url(../images/resort.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 2rem 8rem;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
+
+#logo{
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+    font-size: 20pt;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+#nav-links{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+
+#ul-list{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+
+
+.nav-item {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item:hover{
+ color: blueviolet;
+}
+.bt {
+    background-color: transparent;
+    padding-top: 2px 26px;
+    border-radius: 2rem;
+    border: 2px solid white;
+}
+
+.bt a{
+    text-decoration: none;
+    color: white;
+}
+
+.header-text {
+    color: white;
+    font-size: 30px;
+    margin-top: 10rem;
+}
+
+.about-section {
+    margin: 1rem 10rem;
+    display: flex;
+    gap: 3rem;
+    margin-top: 5%;
+    
+    
+    
+}
+
+.img {
+    display: flex;
+    width: 50%;
+    gap: 1rem;
+    
+   
+}
+
+.img img{
+    width: 60%;
+    gap: 1rem;
+    
+}
+
+.about-text {
+    width: 50%;
+    
+}
+
+.about-text h5{
+    color: chocolate;
+}
+
+.about-text h1{
+    font-size: 20px;
+}
+
+.about-text p{
+    font-size: 1rem;
+    
+}
+
+.button {
+ border: 20px;
+ border-radius: 20px;
+ background: chocolate;
+ padding: 10px 30px;
+ color: white;
+ 
+}
+
+.button a{
+    text-decoration: none;
+    color: white;
+}
+
+.button:hover{
+    background-color: green;
+}
+
+.serve-btn {
+    text-align: center;
+}
+
+
+
+.serve-section {
+    margin: 4rem 9rem;
+   
+   
+       
+}
+
+.serve-images {
+    display: flex;
+    gap: 20px;
+}
+
+.serve-images img{
+    width: 100%;
+    
+}
+
+
+.image {
+    width: 100%;
+    font-size: 20px;
+      
+}
+
+.image img{
+    gap: 20px;
+
+}
+
+.serve-text {
+    padding-bottom: 2rem;
+    width: 50%;
+    font-size: 20px;
+    
+}
+
+.serve-text h5{
+    color: chocolate;
+}
+
+.serve-text h1{
+    font-size: 50px;
+}
+
+.image a{
+    text-decoration: none;
+    color: black;
+}
