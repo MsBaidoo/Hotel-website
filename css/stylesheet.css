@@ -5,18 +5,25 @@ body {
     overflow-x: hidden;
 
 }
-#header-bg{
+
+#header-bg {
     background-image: linear-gradient(rgba(0, 0, 0, 0.212), rgba(0, 0, 0, 0.26)), url(../images/resort.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
     padding: 2rem 8rem;
     font-family: 'Times New Roman', Times, serif;
-    
+
 
 }
 
-#logo{
+#header-overlay {
+    
+    height: 100%;
+    width: 100%;
+}
+
+#logo {
     text-decoration: none;
     color: white;
     font-family: cursive;
@@ -25,14 +32,14 @@ body {
     margin-top: 10px;
 }
 
-#nav-links{
+#nav-links {
     display: flex;
     justify-content: space-between;
     font-size: 20px;
 }
 
 
-#ul-list{
+#ul-list {
     display: flex;
     gap: 30px;
     list-style: none;
@@ -45,9 +52,10 @@ body {
     color: white;
 }
 
-.nav-item:hover{
- color: blueviolet;
+.nav-item:hover {
+    color: blueviolet;
 }
+
 .bt {
     background-color: transparent;
     padding-top: 2px 26px;
@@ -55,7 +63,7 @@ body {
     border: 2px solid white;
 }
 
-.bt a{
+.bt a {
     text-decoration: none;
     color: white;
 }
@@ -71,58 +79,58 @@ body {
     display: flex;
     gap: 3rem;
     margin-top: 5%;
-    
-    
-    
+
+
+
 }
 
 .img {
     display: flex;
     width: 50%;
     gap: 1rem;
-    
-   
+
+
 }
 
-.img img{
+.img img {
     width: 60%;
     gap: 1rem;
-    
+
 }
 
 .about-text {
     width: 50%;
-    
+
 }
 
-.about-text h5{
+.about-text h5 {
     color: chocolate;
 }
 
-.about-text h1{
+.about-text h1 {
     font-size: 20px;
 }
 
-.about-text p{
+.about-text p {
     font-size: 1rem;
-    
+
 }
 
 .button {
- border: 20px;
- border-radius: 20px;
- background: chocolate;
- padding: 10px 30px;
- color: white;
- 
+    border: 20px;
+    border-radius: 20px;
+    background: chocolate;
+    padding: 10px 30px;
+    color: white;
+
 }
 
-.button a{
+.button a {
     text-decoration: none;
     color: white;
 }
 
-.button:hover{
+.button:hover {
     background-color: green;
 }
 
@@ -134,9 +142,9 @@ body {
 
 .serve-section {
     margin: 4rem 9rem;
-   
-   
-       
+
+
+
 }
 
 .serve-images {
@@ -144,19 +152,19 @@ body {
     gap: 20px;
 }
 
-.serve-images img{
+.serve-images img {
     width: 100%;
-    
+
 }
 
 
 .image {
     width: 100%;
     font-size: 20px;
-      
+
 }
 
-.image img{
+.image img {
     gap: 20px;
 
 }
@@ -165,18 +173,18 @@ body {
     padding-bottom: 2rem;
     width: 50%;
     font-size: 20px;
-    
+
 }
 
-.serve-text h5{
+.serve-text h5 {
     color: chocolate;
 }
 
-.serve-text h1{
+.serve-text h1 {
     font-size: 50px;
 }
 
-.image a{
+.image a {
     text-decoration: none;
     color: black;
 }
